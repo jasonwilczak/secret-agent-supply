@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-black {
+    background-color: black;
+    color: white;
+}
+.bg-white {
+    background-color: white;
+    color: black;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-space {
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .splash {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    height: 15rem;
+}
+
+header nav {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+}
+header .splash-banner {
+    position: relative;
+    top: 10rem;
+    padding-top: 1rem;
+    padding-left:2rem;
+}
+header nav span {
+    margin:0;
+}
+header nav ul {
+    display:none;
+}
+.header-logo {
+    background-url: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-title {
+    justify-content: left;
+}
+
+
+
+main {
+    width:90%;
+    margin: auto;
+}
+.items figure {
+    display:none;
+}
+.items figure:first-child {
+    display:block;
+}
+figure {
+    border: 1px solid black;
+}
+
+
+footer {
+}
