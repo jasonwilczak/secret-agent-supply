@@ -47,12 +47,12 @@ header nav ul {
     display:none;
 }
 .header-logo {
-    background-url: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png");
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .header-title {
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 
