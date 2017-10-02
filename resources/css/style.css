@@ -20,6 +20,9 @@ body {
     justify-content: space-between;
     width: 100%;
 }
+.flex-column {
+    flex-direction: column;
+}
 
 header .splash {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
@@ -33,12 +36,20 @@ header nav {
     background-color: firebrick;
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 header .splash-banner {
     position: relative;
     top: 10rem;
     padding-top: 1rem;
     padding-left:2rem;
+    text-align: left;
+}
+header .splash-banner h4 {
+    font-size: .77rem;
+}
+header .splash-banner h2 {
+    font-size: 1rem;
 }
 header nav span {
     margin:0;
@@ -47,12 +58,15 @@ header nav ul {
     display:none;
 }
 .header-logo {
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 12%;
+    margin: auto 1rem;
 }
 .header-title {
     justify-content: flex-start;
+    height: 3rem;
+}
+.header-title span {
+    margin: auto 0;
 }
 
 
@@ -62,15 +76,35 @@ main {
     margin: auto;
 }
 .items figure {
+     border: 2px solid black;
     display:none;
 }
 .items figure:first-child {
-    display:block;
+    display:flex;
 }
-figure {
-    border: 1px solid black;
+figure img{
+   height: 60%;
+   width: 60%;
+   margin: 2.3rem;
 }
-
+.section-item {
+    margin: .5rem;
+}
+.header-box {
+    padding: 1rem 2rem;
+}
+p.header-box {
+    width: 100%;
+}
+.contact-header {
+    text-align: left;
+    margin-bottom: .5rem;
+}
+.contact-info {
+    text-align: left;
+}
 
 footer {
+    margin-top: 2rem;
+    padding: 4rem 0;
 }
